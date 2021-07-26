@@ -22,5 +22,8 @@
   "homepage": "https://github.com/mikemthu/FCKNtoken#readme",
   "dependencies": {
     "@openzeppelin/contracts": "^4.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
   }
 }
