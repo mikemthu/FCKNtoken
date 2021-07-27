@@ -10,7 +10,11 @@ Follow instructions from [Truffle](https://www.trufflesuite.com/docs/truffle/get
 ```bash
 npm install -g truffle
 ```
-Create a .secret file in the root directory with your test wallet seedphase. This is excluded by gitignore.
+Create a .secret file in the root directory with your test wallet seedphase. This is excluded by gitignore. See truffle config here:
+
+```javascript
+const mnemonic = fs.readFileSync(".secret").toString().trim();
+```
 
 Get some free BNB from the [faucet](https://testnet.binance.org/faucet-smart)
 
@@ -31,24 +35,24 @@ constructor(uint256 initialSupply) ERC20("FCKN Fried Chicken", "FCKN")
 ```
 Connecting to BSC testnet
 
-```javascript
+```bash
 truffle console --network testnet
 ```
 
 If you want to override my FCKN token you use --reset once connected to testnet
 
-```javascript
+```bash
 truffle(testnet)> migrate --reset
 ```
 
 otherwise just 
 
-```javascript
+```bash
 truffle(testnet)> migrate 
 ```
 
 You should see the address etc like this
-```
+```bash
    > transaction hash:    0x5ab2a5fe519481b0d81716cbdc3bfb68bcd17e903b75fb59a525fe9b5ee68673
    > Blocks: 2            Seconds: 8
    > contract address:    0xe092faBE5822017Fd4601a65e189b560fc0440d4
