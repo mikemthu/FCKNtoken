@@ -21,7 +21,8 @@
   },
   "homepage": "https://github.com/mikemthu/FCKNtoken#readme",
   "dependencies": {
-    "@openzeppelin/contracts": "^4.2.0"
+    "@openzeppelin/contracts": "^4.2.0",
+    "@truffle/hdwallet-provider": "^1.4.2"
   },
   "devDependencies": {
     "dotenv": "^10.0.0"
