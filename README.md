@@ -12,6 +12,18 @@ npm install -g truffle
 ```
 Create a .secret file in the root directory with your test wallet seedphase. This is excluded by gitignore.
 
+Get some free BNB from the [faucet](https://testnet.binance.org/faucet-smart)
+
+Add BSC Smartchain to your metamask wallet. Metamask -> Settings -> Networks
+```
+Testnet
+Network Name: Smart Chain - Testnet
+New RPC URL: https://data-seed-prebsc-1-s1.binance.org:8545/
+ChainID: 97
+Symbol: BNB
+Block Explorer URL: https://testnet.bscscan.com
+``` 
+
 ## How to deploy to testnet
 First, change the token name in FCKNtoken.sol file
 ```javascript
