@@ -2,6 +2,10 @@
 
 This is a simple ERC20 token created via OpenZepplin but deployed on Binance Smart Chain as per the truffle config file.
 
+View the live token here on [BSC Scan](https://bscscan.com/token/0x9fB0650721f43e8Ffee86B20f4203F3f50A143d2)
+
+[BUY IT NOW](https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x9fB0650721f43e8Ffee86B20f4203F3f50A143d2) on Pancake swap
+
 
 ## How to 
 
